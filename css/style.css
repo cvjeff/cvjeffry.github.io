@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('presentacion/img/fondo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #242424; 
+}
+
+p {
+    font-size: 22px;
+}
+
+
+.presentation {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    padding: 20px;
+    
+}
+
+.slide {
+    display: none;
+    padding: 20px;
+    min-height: 380px;
+    background-color: #fce393;
+}
+
+.slide.active {
+    display: block;
+}
+
+.controls button {
+	margin:20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fcd43c;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 18px;
+    color: #242424;
+}
+
+.controls button:hover {
+    background-color: #242424;
+    color: white;
+}
